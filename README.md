@@ -3,6 +3,8 @@ protocol designed to be used for determining a device's public IP address.
 The library is compatible with .NET 5+, .NET Core 2.0+, and .NET Framework
 2.0+.
 
+This repository and protocol have nothing to do with XMPP or healthcare.
+
 # Simple Public Address Detection (SPADE) Protocol
 
 ## Introduction

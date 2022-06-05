@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPADE", "SPADE\SPADE.csproj", "{AA7DF2DB-BC79-4B96-ADB9-645D41A1A162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPADEServer", "SPADEServer\SPADEServer.csproj", "{D5263CBF-B573-4C4E-83DD-1AEA2CAFA7BD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SPADEServerCommon", "SPADEServerCommon\SPADEServerCommon.shproj", "{83EE8733-C111-4CEB-ADA1-3DFC9D9C3110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPADEServerNetFX", "SPADEServerNetFX\SPADEServerNetFX.csproj", "{C57663F4-53F4-43FF-8688-69B00996224D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPADETestClient", "SPADETestClient\SPADETestClient.csproj", "{FCB32784-C464-4B4B-A036-1ADF8290399A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SPADETestClientCommon", "SPADETestClientCommon\SPADETestClientCommon.shproj", "{C63AF2FE-64B1-4971-A610-0A5C73E64B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPADETestClientNetFX", "SPADETestClientNetFX\SPADETestClientNetFX.csproj", "{73618536-959E-447E-B464-9588F699A6CB}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SPADETestClientCommon\SPADETestClientCommon.projitems*{73618536-959e-447e-b464-9588f699a6cb}*SharedItemsImports = 4
+		SPADEServerCommon\SPADEServerCommon.projitems*{83ee8733-c111-4ceb-ada1-3dfc9d9c3110}*SharedItemsImports = 13
+		SPADEServerCommon\SPADEServerCommon.projitems*{c57663f4-53f4-43ff-8688-69b00996224d}*SharedItemsImports = 4
+		SPADETestClientCommon\SPADETestClientCommon.projitems*{c63af2fe-64b1-4971-a610-0a5c73e64b11}*SharedItemsImports = 13
+		SPADEServerCommon\SPADEServerCommon.projitems*{d5263cbf-b573-4c4e-83dd-1aea2cafa7bd}*SharedItemsImports = 5
+		SPADETestClientCommon\SPADETestClientCommon.projitems*{fcb32784-c464-4b4b-a036-1adf8290399a}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA7DF2DB-BC79-4B96-ADB9-645D41A1A162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7DF2DB-BC79-4B96-ADB9-645D41A1A162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7DF2DB-BC79-4B96-ADB9-645D41A1A162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7DF2DB-BC79-4B96-ADB9-645D41A1A162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5263CBF-B573-4C4E-83DD-1AEA2CAFA7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5263CBF-B573-4C4E-83DD-1AEA2CAFA7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5263CBF-B573-4C4E-83DD-1AEA2CAFA7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5263CBF-B573-4C4E-83DD-1AEA2CAFA7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C57663F4-53F4-43FF-8688-69B00996224D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57663F4-53F4-43FF-8688-69B00996224D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57663F4-53F4-43FF-8688-69B00996224D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57663F4-53F4-43FF-8688-69B00996224D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB32784-C464-4B4B-A036-1ADF8290399A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB32784-C464-4B4B-A036-1ADF8290399A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB32784-C464-4B4B-A036-1ADF8290399A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB32784-C464-4B4B-A036-1ADF8290399A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73618536-959E-447E-B464-9588F699A6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73618536-959E-447E-B464-9588F699A6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73618536-959E-447E-B464-9588F699A6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73618536-959E-447E-B464-9588F699A6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FDB2DBB-8E29-42D9-8704-C47F633AC155}
+	EndGlobalSection
+EndGlobal

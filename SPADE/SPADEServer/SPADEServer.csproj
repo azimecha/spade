@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SPADE.ServerApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SPADE\SPADE.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\SPADEServerCommon\SPADEServerCommon.projitems" Label="Shared" />
+
+</Project>

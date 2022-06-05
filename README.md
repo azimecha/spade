@@ -1,3 +1,8 @@
+This repository contains implementations of the server and client parts of a
+protocol designed to be used for determining a device's public IP address.
+The library is compatible with .NET 5+, .NET Core 2.0+, and .NET Framework
+2.0+.
+
 # Simple Public Address Detection (SPADE) Protocol
 
 ## Introduction

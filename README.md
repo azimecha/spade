@@ -12,8 +12,8 @@ Internet devices are now behind some type of network address translation,
 possibly multiple layers of it.  In order for two devices to exchange packets,
 it is necessary to 'punch' through any NAT layers using methods such as UDP
 holepunching.  The first step in performing such a holepunch is to determine
-the public address that a private address and locally-used port will be mapped
-to by the NAT device.
+the public address and port that a private address and local port will
+be mapped to by the NAT device.
 
 Existing systems of determining the device's external address and port, 
 such as STUN, TURN, and ICE, are complex, requiring multiple messages to be
